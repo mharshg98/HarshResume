@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+.header {
+    padding: 1px;
+    text-align: center;
+    background: gray;
+    color:white;
+    font-size: 20px;
+    
+  }
+  .headerText :hover{
+    background-color: #ddd;
+    color: black;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.2s;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 5px;
+    margin-bottom: 50px;
+
+  }
+  
+ td.acaddata{
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+ }
+
+ td.skilldata{
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+ }
+
+.acadtable{
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+}
+.skilltable{
+  
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+}
